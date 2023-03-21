@@ -128,7 +128,7 @@ public void newApple() {
 		if(y[0]<0) {
 			running=false;
 		}
-		if(x[0]>SCREEN_HIGHT) {
+		if(y[0]>SCREEN_HIGHT) {
 			running=false;
 		}
 		if(!running)
